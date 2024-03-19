@@ -8,37 +8,75 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project builds a real-time stock dashboard application using Next.js and WebSockets.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Initial Setup:
 
-## Deploy on Vercel
+Frontend framework: Next.js
+Mock WebSocket server: We'll use the ws library
+2. Page Components:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Home page (SSG):
+Uses getStaticProps to fetch initial stock data from a static JSON file.
+Displays a list of stock symbols and prices.
+Stock Details page (SSR):
+Fetches the latest stock details (including price) from the server on each request using getServerSideProps.
+Displays stock symbol, current price, and a mock price change graph.
+3. Real-time Updates:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Stock Details page implements a WebSocket connection using the ws library.
+Upon receiving a price update for a specific stock, the application updates the state and re-renders the component with the new price.
+4. State Management:
 
+We'll use the Context API to manage and update stock prices across the application.
+5. Next.js App Component (_app.js):
+
+Customizes the _app.js file to include:
+Global styles
+Context provider for stock data
+SEO and Performance Optimization:
+
+SEO:
+Implement proper page titles and meta descriptions for Stock Details pages.
+Consider using Next.js's built-in support for dynamic route generation.
+Performance:
+Leverage code-splitting to improve initial load time.
+Optimize images for web delivery.
+Consider implementing server-side caching for frequently accessed data.
+Deliverables:
+
+A GitHub repository link containing the complete project code will be provided upon request (due to privacy concerns).
+
+README.md Documentation:
+
+The README.md will explain:
+
+Setup and Run:
+Project dependencies installation instructions.
+Development server start command.
+State Management:
+Explanation of using Context API for state management and its benefits.
+Real-time Updates:
+How the ws library establishes a WebSocket connection and updates the UI.
+Assumptions:
+Details about the mock data format and assumptions made.
+SEO and Performance:
+Implemented SEO practices and performance optimizations.
+Please note: This is a high-level overview of the project. The actual implementation will involve writing code for various functionalities like fetching data, connecting to WebSockets, and managing state using Context API.
+
+Feel free to ask if you have any further questions about specific parts of the implementation!
 
 |- pages/
 |   |- index.js (Home Page)
