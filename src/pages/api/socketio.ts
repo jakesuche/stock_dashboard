@@ -52,7 +52,7 @@ const socketioHandler = (req: NextApiRequest, res: any) => {
           const updatedStock = StockList.map((item) => ({
             ...item,
             time_histories: [
-              ...(item.time_histories?.slice(0,5) || []),
+              ...(item.time_histories?.slice(0,6) || []),
               { timestamp: new Date(), price: item.price },
             ],
             price: (Math.random() * 1000).toFixed(2),

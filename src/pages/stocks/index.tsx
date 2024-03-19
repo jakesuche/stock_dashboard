@@ -3,8 +3,8 @@ import StockCard from "components/StockCard";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { axioInstance } from "services/config";
-import { io } from "socket.io-client";
 import useStockStore from "stores/stocks";
+import { socket } from "utils/socket";
 
 type Props = {
   results: Stock[];
@@ -20,9 +20,7 @@ export async function getStaticProps() {
 const Stocks: React.FC<{ stocks: Stock[] }> = ({ stocks: initialStock }) => {
   const { setStock, stocks } = useStockStore();
 
-  const socket = io(process.env.NEXT_PUBLIC_BASE_URL!, {
-    path: "/api/socketio",
-  });
+ 
 
   useEffect(() => {
     socket.connect();
@@ -33,7 +31,6 @@ const Stocks: React.FC<{ stocks: Stock[] }> = ({ stocks: initialStock }) => {
     });
     socket.on("disconnect", () => {
       socket.disconnect(); 
-      // console.log("socket server disconnected.");
     });
     setStock(initialStock);
    return () => socket.disconnect(); 

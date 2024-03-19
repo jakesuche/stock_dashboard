@@ -2,7 +2,7 @@
   {
     "company": "3M",
     "description": "3M, based in Minnesota, may be best known for its Scotch tape and Post-It Notes, but it also produces sand paper, adhesives, medical products, computer screen filters, food safety items, stationery products and many products used in automotive, marine, and aircraft industries.",
-    "price": "626.88",
+    "price": "271.62",
     "price_2022": 56.27,
     "price_2023": 95.85,
     "symbol": "MMM",
@@ -28,15 +28,19 @@
         "price": "984.75"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "608.26"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "385.95"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "0.05"
       }
     ]
   },
   {
     "company": "Amazon.com",
     "description": "Amazon.com, Inc. is an online retailer in North America and internationally. The company serves consumers through its retail Web sites and focuses on selection, price, and convenience. It also offers programs that enable sellers to sell their products on its Web sites, and their own branded Web sites. In addition, the company serves developer customers through Amazon Web Services, which provides access to technology infrastructure that developers can use to enable virtually various type of business. Further, it manufactures and sells the Kindle e-reader. Founded in 1994 and headquartered in Seattle, Washington.",
-    "price": "594.47",
+    "price": "100.58",
     "price_2022": 17.01,
     "price_2023": 93.43,
     "symbol": "AMZN",
@@ -62,15 +66,19 @@
         "price": "645.93"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "229.07"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "140.68"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "108.85"
       }
     ]
   },
   {
     "company": "Campbell Soup",
     "description": "Campbell Soup is a worldwide food company, offering condensed and ready-to-serve soups; broth, stocks, and canned poultry; pasta sauces; Mexican sauces; canned pastas, gravies, and beans; juices and beverages; and tomato juices. Its customers include retail food chains, mass discounters, mass merchandisers, club stores, convenience stores, drug stores and other retail, and commercial and non-commercial establishments. Campbell Soup Company was founded in 1869 and is headquartered in Camden, New Jersey.",
-    "price": "319.38",
+    "price": "249.88",
     "price_2022": 22.27,
     "price_2023": 36.4,
     "symbol": "CPB",
@@ -96,15 +104,19 @@
         "price": "406.83"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "478.01"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "886.73"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "490.31"
       }
     ]
   },
   {
     "company": "Disney",
     "description": "The Walt Disney Company, founded in 1923, is a worldwide entertainment company, with movies, cable networks, radio networks, movie production, musical recordings and live stage plays. Disney also operates Walt Disney World in Florida and Disneyland in California, Disney Cruise Line, and international Disney resorts. Disney owns countless licenses and literary properties and publishes books and magazines.",
-    "price": "553.59",
+    "price": "728.44",
     "price_2022": 15.24,
     "price_2023": 35.47,
     "symbol": "DIS",
@@ -130,15 +142,19 @@
         "price": "850.04"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "210.36"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "473.88"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "45.29"
       }
     ]
   },
   {
     "company": "Dow Chemical",
     "description": "The Dow Chemical Company manufactures raw materials that go into consumer products and services. These materials include food and pharmaceutical ingredients, electronic displays, semiconductor packaging, water purification, insulation, adhesives, pest control, polyurethane, polystyrene (goes into plastics), and crude-oil based raw materials. Dow was founded in 1897 and is based in Midland, Michigan.",
-    "price": "216.25",
+    "price": "848.46",
     "price_2022": 27.65,
     "price_2023": 44.67,
     "symbol": "DOW",
@@ -164,15 +180,19 @@
         "price": "427.39"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "420.28"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "496.23"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "740.40"
       }
     ]
   },
   {
     "company": "Exxon Mobil",
     "description": "Exxon Mobil engages in the exploration and production of crude oil and natural gas, and manufacture of petroleum products. The company manufactures commodity petrochemicals. The company has operations in the United States, Canada/South America, Europe, Africa, Asia, and Australia/Oceania. Exxon Mobil Corporation was founded in1870 and is based in Irving, Texas.",
-    "price": "757.66",
+    "price": "321.02",
     "price_2022": 32.82,
     "price_2023": 91.36,
     "symbol": "XOM",
@@ -198,15 +218,19 @@
         "price": "126.44"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "43.39"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "49.99"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "509.43"
       }
     ]
   },
   {
     "company": "Ford",
     "description": "Ford Motor Co. develops, manufactures, sells and services vehicles and parts worldwide. Ford sells cars and trucks primarily under the Ford and Lincoln brands. It sells to consumers (through retail dealers) and to rental car companies, leasing companies, and governments. Ford also provides maintenance and repair services. Ford also offers financing to vehicle purchasers. Ford was founded in 1903 and is based in Dearborn, Michigan.",
-    "price": "388.94",
+    "price": "811.88",
     "price_2022": 9.63,
     "price_2023": 8.37,
     "symbol": "F",
@@ -232,15 +256,19 @@
         "price": "321.20"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "377.65"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "352.64"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "307.03"
       }
     ]
   },
   {
     "company": "The Gap",
     "description": "The Gap, Inc. sells retail clothing, accessories and personal care products globally under the brand names Gap, Old Navy, Banana Republic, Piperlime, Athleta and Intermix. Products include sports apparel, casual clothing, sleepwear, footwear and infants’ and children’s clothing. The company has company-owned stores as well as franchise stores, online stores and catalogs. The Gap was founded in 1969 and is headquartered in San Francisco, California.",
-    "price": "495.87",
+    "price": "873.76",
     "price_2022": 11.56,
     "price_2023": 18.9,
     "symbol": "GPS",
@@ -266,15 +294,19 @@
         "price": "654.07"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "281.07"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "760.76"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "190.77"
       }
     ]
   },
   {
     "company": "General Mills",
     "description": "General Mills manufactures and sells consumer foods worldwide. Products include cereals, frozen vegetables, dough, dessert and baking mixes, frozen pizzas, grains, fruits, ice creams and organic products. It sells to grocery stores as well as commercial food service distributors, restaurants and convenience stores. General Mills was founded in 1928 and is based in Minneapolis, Minnesota.",
-    "price": "121.43",
+    "price": "911.93",
     "price_2022": 22.1,
     "price_2023": 28.76,
     "symbol": "GIS",
@@ -300,15 +332,19 @@
         "price": "491.99"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "909.54"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "362.59"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "942.86"
       }
     ]
   },
   {
     "company": "Hewlett Packard",
     "description": "Hewlett-Packard designs and sells products, technologies, software and IT services to consumers, businesses, government and education sectors worldwide. HP offers storage and server products, PCs, calculators, printers, scanners, network infrastructure products, video products (under the Halo brand), and Palm smartphones. HP was founded in 1939 and is headquartered in Palo Alto, California.",
-    "price": "63.26",
+    "price": "151.99",
     "price_2022": 12.03,
     "price_2023": 50.9,
     "symbol": "HPQ",
@@ -334,15 +370,19 @@
         "price": "960.97"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "894.46"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "196.14"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "336.79"
       }
     ]
   },
   {
     "company": "IBM",
     "description": "IBM is an international IT company. IBM offers infrastructure and technology services, software for business integration and information management, data warehousing, identity management software, data security, Lotus software for collaboration, messaging and social networking, business intelligence software, servers, and storage systems. IBM was founded in 1910 and is based in Armonk, New York.",
-    "price": "491.57",
+    "price": "317.10",
     "price_2022": 60.36,
     "price_2023": 116.3,
     "symbol": "IBM",
@@ -368,15 +408,19 @@
         "price": "526.15"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "546.07"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "565.70"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "648.74"
       }
     ]
   },
   {
     "company": "Johnson & Johnson",
     "description": "Johnson & Johnson develops and manufactures health care products for sale worldwide. J&J products include the brands Johnson’s, Aveeno, Clean & Clear, Neutrogena, Lubriderm, Listerine, Reach, BandAid, Tylenol, Sudafed, Motrin and more. J&J products are used in skin care, baby care, and therapeutic medical care, including inflammatory diseases, arthritis, psoriasis, HIV/AIDS, schizophrenia, spinal care, and diabetes. The company was founded in 1886 and is based in New Brunswick, New Jersey.",
-    "price": "688.64",
+    "price": "403.03",
     "price_2022": 52.3,
     "price_2023": 66.25,
     "symbol": "JNJ",
@@ -402,15 +446,19 @@
         "price": "483.99"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "68.31"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "500.64"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "33.42"
       }
     ]
   },
   {
     "company": "Microsoft",
     "description": "Microsoft develops, manufactures, licenses, and supports a range of software products and services for various computing devices worldwide. Products include Windows OS, Windows Live and Internet Explorer. Microsoft also provides training and tech support, online products such as Bing and MSN portals, and software including Microsoft Office, Microsoft SharePoint, Xbox 360, PC software games, online games, and Zune digital music. Microsoft was founded in 1975 and is headquartered in Redmond, Washington.",
-    "price": "758.03",
+    "price": "978.51",
     "price_2022": 22.62,
     "price_2023": 29.84,
     "symbol": "MSFT",
@@ -436,15 +484,19 @@
         "price": "593.48"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "397.99"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "592.63"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "641.18"
       }
     ]
   },
   {
     "company": "Monsanto",
     "description": "Monsanto provides agricultural products for farmers in the United States and internationally. It operates in two segments, Seeds and Genomics, and Agricultural Productivity. The Seeds and Genomics segment produces corn, soybean, canola, and cotton seeds, as well as vegetable seeds, including tomato, pepper, eggplant, melon, cucumber, pumpkin, squash, beans, broccoli, onions, and lettuce seeds. The Agricultural Productivity segment offers herbicides for agricultural, industrial, and residential use. Brands include Roundup, Roundup Ready, YieldGard, and Dekalb. Monsanto focuses on high-yielding crops and crops that tolerate adverse conditions. The current company was founded in 2000 (name dates to 1901) and is based in St. Louis, Missouri.",
-    "price": "731.20",
+    "price": "461.23",
     "price_2022": 7.2,
     "price_2023": 86.93,
     "symbol": "MO",
@@ -470,15 +522,19 @@
         "price": "870.10"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "627.97"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "884.51"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "69.20"
       }
     ]
   },
   {
     "company": "PepsiCo",
     "description": "PepsiCo, Inc. manufactures, markets, and sells various foods, snacks, and carbonated and non-carbonated beverages worldwide. Pepsi products include Pepsi beverages, Mountain Dew, Gatorade, Aquafina and Tropicana beverages as well as Frito-Lay snacks, Ruffles, Doritos, Tostitos, Rold Gold pretzels, Sun Chips, Crackerjack, Quaker Oats, Aunt Jemima mixes, Life Cereal, and Rice-a-Roni. The company was founded in 1898 and is headquartered in Purchase, New York.",
-    "price": "273.74",
+    "price": "322.81",
     "price_2022": 36.69,
     "price_2023": 73.74,
     "symbol": "PEP",
@@ -504,15 +560,19 @@
         "price": "218.12"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "999.37"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "342.68"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "195.46"
       }
     ]
   },
   {
     "company": "Starbucks",
     "description": "Starbucks Corp. provides specialty coffee and tea beverages, packaged and ground coffee beans, single-serve products, juices and food offerings worldwide. Starbucks sells licensed products through grocery stores and other food service outlets as well as running company stores that sell coffees, pastries, breakfast sandwiches and lunch items. Starbucks sells products under the brand names Starbucks, Teavana, Tazo, Seattle’s Best, La Blange and Verismo. Starbucks was founded in 1985 and is based in Seattle, Washington.",
-    "price": "296.28",
+    "price": "570.40",
     "price_2022": 10.5,
     "price_2023": 26.84,
     "symbol": "SBUX",
@@ -538,15 +598,19 @@
         "price": "546.40"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "387.66"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "953.99"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "29.20"
       }
     ]
   },
   {
     "company": "Texas Instruments",
     "description": "Texas Instruments designs and sells semiconductors to electronics designers and manufacturers worldwide. The company has four segments: Analog, Embedded Processing, Wireless and Other. The Other segment provides handheld graphing and scientific calculators and licenses technologies to other electronic companies. The company was founded in 1938 and is headquartered in Dallas, Texas.",
-    "price": "898.46",
+    "price": "646.23",
     "price_2022": 15.58,
     "price_2023": 36.54,
     "symbol": "TXN",
@@ -572,8 +636,12 @@
         "price": "435.42"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "919.16"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "641.26"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "397.54"
       }
     ]
   },
@@ -584,7 +652,7 @@
     "price_2022": 36.36,
     "price_2023": 57.18,
     "symbol": "TWX",
-    "price": "780.93",
+    "price": "20.08",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -607,8 +675,12 @@
         "price": "56.61"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "623.76"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "623.54"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "865.17"
       }
     ]
   },
@@ -619,7 +691,7 @@
     "price_2022": 21.85,
     "price_2007": 47.7,
     "symbol": "UNH",
-    "price": "429.42",
+    "price": "726.23",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -642,8 +714,12 @@
         "price": "585.96"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "544.95"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "872.58"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "533.70"
       }
     ]
   },
@@ -654,7 +730,7 @@
     "price_2022": 50.51,
     "price_2007": 47.53,
     "symbol": "WMT",
-    "price": "265.61",
+    "price": "445.05",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -677,8 +753,12 @@
         "price": "179.76"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "954.26"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "898.39"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "343.49"
       }
     ]
   },
@@ -689,7 +769,7 @@
     "price_2022": 46.82,
     "price_2007": 94.29,
     "symbol": "WHR",
-    "price": "820.55",
+    "price": "310.54",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -712,8 +792,12 @@
         "price": "473.43"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "24.05"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "799.86"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "54.52"
       }
     ]
   },
@@ -724,7 +808,7 @@
     "price_2022": 5.26,
     "price_2007": 17.54,
     "symbol": "XRX",
-    "price": "709.89",
+    "price": "683.52",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -747,8 +831,12 @@
         "price": "680.88"
       },
       {
-        "timestamp": "2024-03-19T20:50:13.169Z",
-        "price": "968.86"
+        "timestamp": "2024-03-19T21:21:54.615Z",
+        "price": "816.55"
+      },
+      {
+        "timestamp": "2024-03-19T21:49:48.249Z",
+        "price": "951.70"
       }
     ]
   }

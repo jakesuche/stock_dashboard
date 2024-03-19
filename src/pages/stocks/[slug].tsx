@@ -1,4 +1,6 @@
 import { AxiosResponse } from "axios";
+import InfoAlert from "components/InfoAlert";
+import PriceChart from "components/PriceChart.ts";
 import { GetServerSidePropsContext } from "next";
 import Link from "next/link";
 import React from "react";
@@ -7,9 +9,7 @@ import { axioInstance } from "services/config";
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const slug = ctx.query.slug;
   try {
-    const response: AxiosResponse<any> = await axioInstance.get(
-      `api/stock/${slug}`
-    );
+    const response: AxiosResponse = await axioInstance.get(`api/stock/${slug}`);
 
     return {
       props: {
@@ -32,24 +32,12 @@ type Props = {
 };
 
 const StockDetail: React.FC<Props> = ({ data }) => {
- 
-  const stockdetails = data?.result
+  const stockdetails = data?.result;
+  let details;
 
-  if (!Boolean(stockdetails)){
-    return (
-      <div className="container mx-auto mt-8">
-        <Link className="text-blue-600" href="/stocks">
-          Back to Stocks
-        </Link>
-       
-      </div>
-    );
-  }
-    return (
-      <div className="container mx-auto mt-8">
-        <Link className="text-blue-600" href="/stocks">
-          Back to Stocks
-        </Link>
+  if (Boolean(stockdetails)) {
+    details = (
+      <>
         <h1 className="text-3xl font-bold mt-4 text-gray-500">
           {stockdetails.company}
         </h1>
@@ -66,9 +54,25 @@ const StockDetail: React.FC<Props> = ({ data }) => {
             Price in 2023: {stockdetails.price_2023}
           </p>
         </div>
-        <div className="mt-8">{/* <Line data={chartData} /> */}</div>
-      </div>
+        <div className="mt-8">
+          <PriceChart history={stockdetails?.time_histories} />
+        </div>
+      </>
     );
+  } else {
+    details = (
+      <InfoAlert description="Stock item not found, confirm if your url is correct" />
+    );
+  }
+
+  return (
+    <div className="container mx-auto mt-8">
+      <Link className="text-blue-600" href="/stocks">
+        Back to Stocks
+      </Link>
+      {details}
+    </div>
+  );
 };
 
 export default StockDetail;

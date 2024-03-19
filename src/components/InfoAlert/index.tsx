@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function InfoAlert() {
+
+type Props = {
+  description:string;
+  title?:string
+};
+const  InfoAlert:React.FC<Props> = ({ description, title }) => {
   return (
     <div
-      className="flex items-center p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 "
+      className="flex mt-4 items-center p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50"
       role="alert"
     >
       <svg
@@ -17,8 +22,7 @@ function InfoAlert() {
       </svg>
       <span className="sr-only">Info</span>
       <div>
-        <span className="font-medium">Info alert!</span> Change a few things up
-        and try submitting again.
+        <span className="font-medium">{title}!</span> {description}
       </div>
     </div>
   );
