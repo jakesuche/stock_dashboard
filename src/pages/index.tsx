@@ -1,4 +1,5 @@
 
+
 import Button from "components/Button";
 import TextInput from "components/TextInput";
 
@@ -6,6 +7,8 @@ import TextInput from "components/TextInput";
 
 
 export default function Home() {
+
+  
   return (
   
       <section className="bg-gray-50  w-full">

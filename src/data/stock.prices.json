@@ -1,0 +1,10 @@
+[
+  {
+    "symbol": "MMM",
+    "price_changes": [
+      { "timestamp": "new Date(2024, 3, 18, 9, 30), price: 150.25" },
+      { "timestamp": "new Date(2024, 3, 18, 10, 00), price: 151.10" },
+      { "timestamp": "new Date(2024, 3, 18, 10, 30), price: 150.75" }
+    ]
+  }
+]
