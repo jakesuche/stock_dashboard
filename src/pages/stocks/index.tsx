@@ -29,11 +29,13 @@ const Stocks: React.FC<{ stocks: Stock[] }> = ({ stocks: initialStock }) => {
       setStock(res);
       socket.emit("updated", res);
     });
-    socket.on("disconnect", () => {
-      socket.disconnect(); 
-    });
+    // socket.on("disconnect", () => {
+    //   socket.disconnect(); 
+    // });
     setStock(initialStock);
-   return () => socket.disconnect(); 
+  //  return () => {
+  //   socket.disconnect(); 
+  //  }
   }, []);
 
   return (

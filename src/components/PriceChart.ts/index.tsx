@@ -44,7 +44,7 @@ const PriceChart: React.FC<Props> = ({ history }) => {
     ),
     datasets: [
       {
-        label: "Price",
+        label: "Price history",
         data: history?.map((point) => point.price),
         borderColor: "rgba(54, 162, 235, 0.8)",
         backgroundColor: "rgba(54, 162, 235, 0.2)",

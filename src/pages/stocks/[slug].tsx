@@ -3,8 +3,10 @@ import InfoAlert from "components/InfoAlert";
 import PriceChart from "components/PriceChart.ts";
 import { GetServerSidePropsContext } from "next";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { axioInstance } from "services/config";
+import { socket } from "utils/socket";
+
 
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const slug = ctx.query.slug;
@@ -32,8 +34,16 @@ type Props = {
 };
 
 const StockDetail: React.FC<Props> = ({ data }) => {
-  const stockdetails = data?.result;
+  const  [stockdetails, setStockDetail] = useState(data?.result);
   let details;
+
+  useEffect(()=>{
+    socket.on("update", (res:Stock[])=>{
+      const find = res.find((item) => item.symbol == stockdetails.symbol);
+      setStockDetail(find!)
+    });
+  },[])
+
 
   if (Boolean(stockdetails)) {
     details = (
