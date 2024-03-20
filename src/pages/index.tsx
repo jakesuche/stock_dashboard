@@ -6,6 +6,7 @@ import Layout from "components/Layout";
 import StockCard from "components/StockCard";
 import { NextPageWithLayout } from "pages/_app";
 import { axioInstance } from "services/config";
+import InfoAlert from "components/InfoAlert";
 
 type Props = {
   results: Stock[];
@@ -13,50 +14,53 @@ type Props = {
 };
 
 export async function getStaticProps() {
- 
   try {
-     const response: AxiosResponse<Props> = await axioInstance.get("api/stock");
-      const stocks = response.data.results || [];
-      return { props: { stocks }, revalidate: 5 };
+    const response: AxiosResponse<Props> = await axioInstance.get("/api/stock/");
+    const stocks = response.data.results || [];
+    // this will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 5 seconds
+    return { props: { stocks }, revalidate: 5 };
   } catch (error) {
-     return { props: {  } };
+    return { props: {  }, revalidate: 5 };
   }
-  // this will attempt to re-generate the page:
- 
-  
 }
 
 const Stocks: NextPageWithLayout<{ stocks: Stock[] }> = ({
   stocks: initialStock,
 }) => {
-  return (
-    <div className="max-auto max-w-screen p-4 h-full">
-      <section className="bg-white">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl  grid lg:grid-cols-2 gap-8 lg:gap-16">
-          <div className="flex flex-col justify-center">
-            <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900  ">
-              We invest in the world’s potential
-            </h1>
-            <p className=" text-md font-normal text-gray-500  ">
-              Prices displayed on this website are updated every 5 seconds on
-              page reload. To access real-time data, please view each of the
-              stock
-            </p>
-          </div>
-        </div>
-      </section>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
-        {initialStock?.map(({ symbol, price }) => {
-          return (
-            <Link key={symbol} href={`/${symbol}`}>
-              <StockCard price={price} symbol={symbol} />
-            </Link>
-          );
-        })}
+  if (!initialStock){
+    return <InfoAlert description="Make sure your server is running on port 3000" />
+  }
+    return (
+      <div className="max-auto max-w-screen p-4 h-full">
+        <section className="bg-white">
+          <div className="py-8 px-4 mx-auto max-w-screen-xl  grid lg:grid-cols-2 gap-8 lg:gap-16">
+            <div className="flex flex-col justify-center">
+              <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900  ">
+                We invest in the world’s potential
+              </h1>
+              <p className=" text-md font-normal text-gray-500  ">
+                Prices displayed on this website are updated every 5 seconds on
+                page reload. To access real-time data, please view each of the
+                stock
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
+          {initialStock?.map(({ symbol, price }) => {
+            return (
+              <Link key={symbol} href={`/${symbol}`}>
+                <StockCard price={price} symbol={symbol} />
+              </Link>
+            );
+          })}
+        </div>
       </div>
-    </div>
-  );
+    );
 };
 
 Stocks.getLayout = (page) => {
