@@ -62,16 +62,10 @@ const StockDetail: NextPageWithLayout<Props> = ({ data }) => {
         </p>
         <div className="mt-4">
           <p className="text-gray-800 font-bold">Price: {stockdetails.price}</p>
-          <p className="text-gray-600">
-            Price in 2022: {stockdetails.price_2022}
-          </p>
-          <p className="text-gray-600">
-            Price in 2023: {stockdetails.price_2023}
-          </p>
         </div>
         <div className="mt-8">
           <PriceChart
-            key={stockdetails.price}
+            // key={stockdetails.price}
             history={stockdetails?.time_histories}
           />
         </div>

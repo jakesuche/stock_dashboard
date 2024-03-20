@@ -9,6 +9,7 @@ import {
   Legend,
 } from "chart.js";
 import { Chart } from "chart.js";
+import React from "react";
 Chart.register(
   CategoryScale,
   CategoryScale,
@@ -50,4 +51,4 @@ const PriceChart: React.FC<Props> = ({ history }) => {
   return <Line data={chartData} options={{ maintainAspectRatio: false }} />;
 };
 
-export default PriceChart;
+export default React.memo(PriceChart);
