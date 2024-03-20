@@ -1,11 +1,11 @@
 // pages/api/socketio.ts
 
-import { NextApiRequest, NextApiResponse } from "next";
+
 import { Server } from "socket.io";
 import fs from "fs";
 
 
-const socketioHandler = (req: NextApiRequest, res: any) => {
+const socketioHandler = (req: any, res: any) => {
   if (!res.socket.server.io) {
 
     const io = new Server(res.socket.server, { path: "/api/socketio" });
