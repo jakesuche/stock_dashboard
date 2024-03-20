@@ -57,15 +57,7 @@ yarn dev
 ### Mock WebSocket Server:
 - We'll use the `socket.io` library
 
-## Page Components
 
-1. **Home Page (Static Site Generation - SSG):**
-   - Uses `getStaticProps` to fetch initial stock data from a static JSON file.
-   - Displays a list of stock symbols and prices.
-
-2. **Stock Details Page (Server-Side Rendering - SSR):**
-   - Fetches the latest stock details (including price) from the server on each request using `getServerSideProps`.
-   - Displays stock symbol, current price, and a mock price change graph.
 
 ### Get Stock Endpoint
 - **URL:** `/api/stocks`
@@ -95,28 +87,43 @@ yarn dev
 - The Stock Details page implements a WebSocket connection using the `socket.io` library for both client and server side.
 - Upon receiving a price update for a specific stock, the application updates the state and re-renders the component with the new price.
 
+
+
+**Socket.IO Server Initialization:**
+- The function checks if a Socket.IO server instance already exists on the HTTP server. If not, it creates a new Server instance from the socket.io library and attaches it to the HTTP server with the path "/api/socketio".
+
+**Client Connections:**
+- The function listens for incoming client connections using the connection event of the Socket.IO server.
+**Upon a successful connection:**
+- A message is logged to the console indicating a user connection. An interval is set to send periodic updates of stock prices to connected clients every 10 seconds.
+
+**Stock Price Updates:**
+- The interval functionality reads the "src/data/stocks.json" file containing the stock data. In case of an error reading the file, an error message is logged. If successful, the data is parsed into a JavaScript object representing an array of stocks.
+
+- The stock prices are simulated by generating a random value for each stock and adding a new "time_history" entry with the current timestamp.
+
+- The updated stock data is then emitted to all connected clients using the socket.emit function with the event name "update".
+
+**Client Updates:**
+- The function also listens for a "updated" event emitted by clients. This event presumably carries updated stock data from the client-side.
+- Upon receiving the "updated" message, the data is converted to a JSON string and written back to the "src/data/stocks.json" file.
+- Any errors during the write operation are logged to the console.If successful, a message confirming the file save is logged.
+```
+/api/socketio.ts
+```
+
+**Client listining:**
+-  layout component listings for update and updated messages
+```
+/src/components/layout
+```
+
+
 ## State Management
 
 -  used the zustand to manage and update stock prices across the application. zustand is easy to implement with little configuration and its light weight
 
-## Next.js App Component (`_app.js`)
 
-- Customizes the `_app.js` file to include:
-  - Global styles
-  - Next.js Page layout 
-
-#### Next js layout configuration
-```python
-export type AppPropsWithLayout = AppProps & {
-  Component: NextPageWithLayout;
-};
-
-export default function App({ Component, pageProps }: AppPropsWithLayout) {
-  const getLayout = Component.getLayout ?? ((page: ReactElement) => page);
-  return <>{getLayout(<Component {...pageProps} />)}</>;
-}
-
-```
 
 ## SEO and Performance Optimization
 

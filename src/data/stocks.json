@@ -2,7 +2,7 @@
   {
     "company": "3M",
     "description": "3M, based in Minnesota, may be best known for its Scotch tape and Post-It Notes, but it also produces sand paper, adhesives, medical products, computer screen filters, food safety items, stationery products and many products used in automotive, marine, and aircraft industries.",
-    "price": "189.45",
+    "price": "68.11",
     "symbol": "MMM",
     "time_histories": [
       {
@@ -30,15 +30,15 @@
         "price": "385.95"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "121.61"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "814.59"
       }
     ]
   },
   {
     "company": "Amazon.com",
     "description": "Amazon.com, Inc. is an online retailer in North America and internationally. The company serves consumers through its retail Web sites and focuses on selection, price, and convenience. It also offers programs that enable sellers to sell their products on its Web sites, and their own branded Web sites. In addition, the company serves developer customers through Amazon Web Services, which provides access to technology infrastructure that developers can use to enable virtually various type of business. Further, it manufactures and sells the Kindle e-reader. Founded in 1994 and headquartered in Seattle, Washington.",
-    "price": "286.45",
+    "price": "749.13",
     "symbol": "AMZN",
     "time_histories": [
       {
@@ -66,15 +66,15 @@
         "price": "140.68"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "289.74"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "383.98"
       }
     ]
   },
   {
     "company": "Campbell Soup",
     "description": "Campbell Soup is a worldwide food company, offering condensed and ready-to-serve soups; broth, stocks, and canned poultry; pasta sauces; Mexican sauces; canned pastas, gravies, and beans; juices and beverages; and tomato juices. Its customers include retail food chains, mass discounters, mass merchandisers, club stores, convenience stores, drug stores and other retail, and commercial and non-commercial establishments. Campbell Soup Company was founded in 1869 and is headquartered in Camden, New Jersey.",
-    "price": "992.01",
+    "price": "161.14",
     "symbol": "CPB",
     "time_histories": [
       {
@@ -102,15 +102,15 @@
         "price": "886.73"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "780.54"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "242.65"
       }
     ]
   },
   {
     "company": "Disney",
     "description": "The Walt Disney Company, founded in 1923, is a worldwide entertainment company, with movies, cable networks, radio networks, movie production, musical recordings and live stage plays. Disney also operates Walt Disney World in Florida and Disneyland in California, Disney Cruise Line, and international Disney resorts. Disney owns countless licenses and literary properties and publishes books and magazines.",
-    "price": "175.10",
+    "price": "300.59",
     "symbol": "DIS",
     "time_histories": [
       {
@@ -138,15 +138,15 @@
         "price": "473.88"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "128.20"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "638.29"
       }
     ]
   },
   {
     "company": "Dow Chemical",
     "description": "The Dow Chemical Company manufactures raw materials that go into consumer products and services. These materials include food and pharmaceutical ingredients, electronic displays, semiconductor packaging, water purification, insulation, adhesives, pest control, polyurethane, polystyrene (goes into plastics), and crude-oil based raw materials. Dow was founded in 1897 and is based in Midland, Michigan.",
-    "price": "160.59",
+    "price": "813.65",
     "symbol": "DOW",
     "time_histories": [
       {
@@ -174,15 +174,15 @@
         "price": "496.23"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "777.65"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "507.43"
       }
     ]
   },
   {
     "company": "Exxon Mobil",
     "description": "Exxon Mobil engages in the exploration and production of crude oil and natural gas, and manufacture of petroleum products. The company manufactures commodity petrochemicals. The company has operations in the United States, Canada/South America, Europe, Africa, Asia, and Australia/Oceania. Exxon Mobil Corporation was founded in1870 and is based in Irving, Texas.",
-    "price": "97.76",
+    "price": "429.80",
     "symbol": "XOM",
     "time_histories": [
       {
@@ -210,15 +210,15 @@
         "price": "49.99"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "429.54"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "505.51"
       }
     ]
   },
   {
     "company": "Ford",
     "description": "Ford Motor Co. develops, manufactures, sells and services vehicles and parts worldwide. Ford sells cars and trucks primarily under the Ford and Lincoln brands. It sells to consumers (through retail dealers) and to rental car companies, leasing companies, and governments. Ford also provides maintenance and repair services. Ford also offers financing to vehicle purchasers. Ford was founded in 1903 and is based in Dearborn, Michigan.",
-    "price": "266.37",
+    "price": "987.48",
     "symbol": "F",
     "time_histories": [
       {
@@ -246,15 +246,15 @@
         "price": "352.64"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "940.15"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "617.93"
       }
     ]
   },
   {
     "company": "The Gap",
     "description": "The Gap, Inc. sells retail clothing, accessories and personal care products globally under the brand names Gap, Old Navy, Banana Republic, Piperlime, Athleta and Intermix. Products include sports apparel, casual clothing, sleepwear, footwear and infants’ and children’s clothing. The company has company-owned stores as well as franchise stores, online stores and catalogs. The Gap was founded in 1969 and is headquartered in San Francisco, California.",
-    "price": "109.46",
+    "price": "484.08",
     "symbol": "GPS",
     "time_histories": [
       {
@@ -282,15 +282,15 @@
         "price": "760.76"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "388.81"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "427.20"
       }
     ]
   },
   {
     "company": "General Mills",
     "description": "General Mills manufactures and sells consumer foods worldwide. Products include cereals, frozen vegetables, dough, dessert and baking mixes, frozen pizzas, grains, fruits, ice creams and organic products. It sells to grocery stores as well as commercial food service distributors, restaurants and convenience stores. General Mills was founded in 1928 and is based in Minneapolis, Minnesota.",
-    "price": "804.23",
+    "price": "952.19",
     "symbol": "GIS",
     "time_histories": [
       {
@@ -318,15 +318,15 @@
         "price": "362.59"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "124.69"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "849.41"
       }
     ]
   },
   {
     "company": "Hewlett Packard",
     "description": "Hewlett-Packard designs and sells products, technologies, software and IT services to consumers, businesses, government and education sectors worldwide. HP offers storage and server products, PCs, calculators, printers, scanners, network infrastructure products, video products (under the Halo brand), and Palm smartphones. HP was founded in 1939 and is headquartered in Palo Alto, California.",
-    "price": "954.16",
+    "price": "294.55",
     "symbol": "HPQ",
     "time_histories": [
       {
@@ -354,15 +354,15 @@
         "price": "196.14"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "351.99"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "205.15"
       }
     ]
   },
   {
     "company": "IBM",
     "description": "IBM is an international IT company. IBM offers infrastructure and technology services, software for business integration and information management, data warehousing, identity management software, data security, Lotus software for collaboration, messaging and social networking, business intelligence software, servers, and storage systems. IBM was founded in 1910 and is based in Armonk, New York.",
-    "price": "2.39",
+    "price": "388.63",
     "symbol": "IBM",
     "time_histories": [
       {
@@ -390,15 +390,15 @@
         "price": "565.70"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "729.08"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "856.33"
       }
     ]
   },
   {
     "company": "Johnson & Johnson",
     "description": "Johnson & Johnson develops and manufactures health care products for sale worldwide. J&J products include the brands Johnson’s, Aveeno, Clean & Clear, Neutrogena, Lubriderm, Listerine, Reach, BandAid, Tylenol, Sudafed, Motrin and more. J&J products are used in skin care, baby care, and therapeutic medical care, including inflammatory diseases, arthritis, psoriasis, HIV/AIDS, schizophrenia, spinal care, and diabetes. The company was founded in 1886 and is based in New Brunswick, New Jersey.",
-    "price": "921.65",
+    "price": "245.00",
     "symbol": "JNJ",
     "time_histories": [
       {
@@ -426,15 +426,15 @@
         "price": "500.64"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "501.24"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "937.60"
       }
     ]
   },
   {
     "company": "Microsoft",
     "description": "Microsoft develops, manufactures, licenses, and supports a range of software products and services for various computing devices worldwide. Products include Windows OS, Windows Live and Internet Explorer. Microsoft also provides training and tech support, online products such as Bing and MSN portals, and software including Microsoft Office, Microsoft SharePoint, Xbox 360, PC software games, online games, and Zune digital music. Microsoft was founded in 1975 and is headquartered in Redmond, Washington.",
-    "price": "462.41",
+    "price": "858.52",
     "symbol": "MSFT",
     "time_histories": [
       {
@@ -462,15 +462,15 @@
         "price": "592.63"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "579.13"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "862.81"
       }
     ]
   },
   {
     "company": "Monsanto",
     "description": "Monsanto provides agricultural products for farmers in the United States and internationally. It operates in two segments, Seeds and Genomics, and Agricultural Productivity. The Seeds and Genomics segment produces corn, soybean, canola, and cotton seeds, as well as vegetable seeds, including tomato, pepper, eggplant, melon, cucumber, pumpkin, squash, beans, broccoli, onions, and lettuce seeds. The Agricultural Productivity segment offers herbicides for agricultural, industrial, and residential use. Brands include Roundup, Roundup Ready, YieldGard, and Dekalb. Monsanto focuses on high-yielding crops and crops that tolerate adverse conditions. The current company was founded in 2000 (name dates to 1901) and is based in St. Louis, Missouri.",
-    "price": "232.30",
+    "price": "333.24",
     "symbol": "MO",
     "time_histories": [
       {
@@ -498,15 +498,15 @@
         "price": "884.51"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "402.54"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "35.66"
       }
     ]
   },
   {
     "company": "PepsiCo",
     "description": "PepsiCo, Inc. manufactures, markets, and sells various foods, snacks, and carbonated and non-carbonated beverages worldwide. Pepsi products include Pepsi beverages, Mountain Dew, Gatorade, Aquafina and Tropicana beverages as well as Frito-Lay snacks, Ruffles, Doritos, Tostitos, Rold Gold pretzels, Sun Chips, Crackerjack, Quaker Oats, Aunt Jemima mixes, Life Cereal, and Rice-a-Roni. The company was founded in 1898 and is headquartered in Purchase, New York.",
-    "price": "292.47",
+    "price": "961.07",
     "symbol": "PEP",
     "time_histories": [
       {
@@ -534,15 +534,15 @@
         "price": "342.68"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "574.50"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "125.88"
       }
     ]
   },
   {
     "company": "Starbucks",
     "description": "Starbucks Corp. provides specialty coffee and tea beverages, packaged and ground coffee beans, single-serve products, juices and food offerings worldwide. Starbucks sells licensed products through grocery stores and other food service outlets as well as running company stores that sell coffees, pastries, breakfast sandwiches and lunch items. Starbucks sells products under the brand names Starbucks, Teavana, Tazo, Seattle’s Best, La Blange and Verismo. Starbucks was founded in 1985 and is based in Seattle, Washington.",
-    "price": "454.79",
+    "price": "303.45",
     "symbol": "SBUX",
     "time_histories": [
       {
@@ -570,15 +570,15 @@
         "price": "953.99"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "967.78"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "20.00"
       }
     ]
   },
   {
     "company": "Texas Instruments",
     "description": "Texas Instruments designs and sells semiconductors to electronics designers and manufacturers worldwide. The company has four segments: Analog, Embedded Processing, Wireless and Other. The Other segment provides handheld graphing and scientific calculators and licenses technologies to other electronic companies. The company was founded in 1938 and is headquartered in Dallas, Texas.",
-    "price": "397.70",
+    "price": "832.25",
     "symbol": "TXN",
     "time_histories": [
       {
@@ -606,8 +606,8 @@
         "price": "641.26"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "464.96"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "611.87"
       }
     ]
   },
@@ -616,7 +616,7 @@
     "description": "Time Warner is a media and entertainment company in the United States and internationally. It operates in three segments: Networks, Filmed Entertainment, and Publishing. Networks provides HBO, Cinemax, TNT, TBS, and CNN. Filmed Entertainment produces movies, TV shows, animation, videogames, and home video products. Publishing includes magazines (People, Sports Illustrated, Time), books, and websites. The company was founded in 1985 and is based in New York, New York.",
     "initial_price": 221.25,
     "symbol": "TWX",
-    "price": "441.30",
+    "price": "176.03",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -643,8 +643,8 @@
         "price": "623.54"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "435.15"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "54.32"
       }
     ]
   },
@@ -654,7 +654,7 @@
     "initial_price": 7.66,
     "price_2007": 47.7,
     "symbol": "UNH",
-    "price": "766.72",
+    "price": "263.78",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -681,8 +681,8 @@
         "price": "872.58"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "388.27"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "632.48"
       }
     ]
   },
@@ -692,7 +692,7 @@
     "initial_price": 56.5,
     "price_2007": 47.53,
     "symbol": "WMT",
-    "price": "946.25",
+    "price": "661.99",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -719,8 +719,8 @@
         "price": "898.39"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "758.14"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "747.13"
       }
     ]
   },
@@ -730,7 +730,7 @@
     "initial_price": 58.25,
     "price_2007": 94.29,
     "symbol": "WHR",
-    "price": "885.71",
+    "price": "846.10",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -757,8 +757,8 @@
         "price": "799.86"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "95.69"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "70.36"
       }
     ]
   },
@@ -768,7 +768,7 @@
     "initial_price": 20.87,
     "price_2007": 17.54,
     "symbol": "XRX",
-    "price": "106.88",
+    "price": "600.33",
     "time_histories": [
       {
         "timestamp": "2024-03-19T20:04:57.775Z",
@@ -795,8 +795,8 @@
         "price": "816.55"
       },
       {
-        "timestamp": "2024-03-20T12:48:17.644Z",
-        "price": "278.50"
+        "timestamp": "2024-03-20T13:18:47.724Z",
+        "price": "581.83"
       }
     ]
   }
