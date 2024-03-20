@@ -1,9 +1,9 @@
 import { Inter } from 'next/font/google';
-import React from 'react'
+import React, { useEffect } from 'react'
 import type { FC, ReactNode } from "react";
 import Head from "next/head";
 
-
+import { socket } from 'utils/socket';
 const inter = Inter({ subsets: ["latin"] });
 
 
@@ -12,21 +12,22 @@ interface LayoutProps {
   children: ReactNode;
   pageTitle: string;
   pageDescription?: string;
-  hideFooter?: boolean;
-  image?: string;
-  keyWords?: string[];
-  hideNav?: boolean;
-  hideChat?: boolean;
 }
 
 const Layout: FC<LayoutProps> = ({
   children,
   pageTitle,
   pageDescription,
-  image,
-  keyWords,
-
 }) => {
+
+  useEffect(() => {
+    // the subscription is most effective on the detail page 
+    socket.connect();
+    socket.on("connect", () => {});
+    socket.on("update", (res) => {
+      socket.emit("updated", res);
+    });
+  }, []);
  
   return (
     <>
@@ -37,7 +38,6 @@ const Layout: FC<LayoutProps> = ({
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
         <meta property="og:description" content={pageDescription} />
-        <meta property="og:image" content={image} />
         <meta name="description" content={pageDescription} />
       </Head>
 

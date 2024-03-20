@@ -1,11 +1,13 @@
-import { AxiosResponse } from "axios";
-import InfoAlert from "components/InfoAlert";
-import PriceChart from "components/PriceChart.ts";
 import { GetServerSidePropsContext } from "next";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+
 import { axioInstance } from "services/config";
 import { socket } from "utils/socket";
+import InfoAlert from "components/InfoAlert";
+import PriceChart from "components/PriceChart.ts";
+import { NextPageWithLayout } from "pages/_app";
+import Layout from "components/Layout";
 
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const slug = ctx.query.slug;
@@ -26,16 +28,10 @@ type Props = {
   };
 };
 
-const StockDetail: React.FC<Props> = ({ data }) => {
+const StockDetail: NextPageWithLayout<Props> = ({ data }) => {
   const [stockdetails, setStockDetail] = useState(data?.result);
   let details;
 
-  useEffect(() => {
-    socket.on("update", (res: Stock[]) => {
-      const find = res.find((item) => item.symbol == stockdetails.symbol);
-      setStockDetail(find!);
-    });
-  }, []);
 
   if (Boolean(stockdetails)) {
     details = (
@@ -57,7 +53,7 @@ const StockDetail: React.FC<Props> = ({ data }) => {
           </p>
         </div>
         <div className="mt-8">
-          <PriceChart history={stockdetails?.time_histories} />
+          <PriceChart key={stockdetails.price} history={stockdetails?.time_histories} />
         </div>
       </>
     );
@@ -67,6 +63,13 @@ const StockDetail: React.FC<Props> = ({ data }) => {
     );
   }
 
+   useEffect(() => {
+     socket.on("update", (res: Stock[]) => {
+       const find = res.find((item) => item.symbol == stockdetails.symbol);
+       setStockDetail(find!);
+     });
+   }, [stockdetails?.symbol]);
+
   return (
     <div className="container mx-auto mt-8">
       <Link className="text-blue-600" href="/stocks">
@@ -74,6 +77,17 @@ const StockDetail: React.FC<Props> = ({ data }) => {
       </Link>
       {details}
     </div>
+  );
+};
+
+
+
+StockDetail.getLayout = (page) => {
+  const details = page.props.data ? page.props.data.result :  null
+  return (
+    <Layout pageDescription={details?.description} pageTitle={details?.company}>
+      {page}
+    </Layout>
   );
 };
 

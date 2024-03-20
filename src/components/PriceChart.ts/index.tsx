@@ -1,5 +1,3 @@
-
-
 import { Line } from "react-chartjs-2";
 import {
   CategoryScale,
@@ -10,9 +8,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import {
-  Chart 
-} from "chart.js";
+import { Chart } from "chart.js";
 Chart.register(
   CategoryScale,
   CategoryScale,
@@ -24,15 +20,12 @@ Chart.register(
   Legend
 );
 
-
-
 type Props = {
   history: {
     timestamp: string;
     price: string;
   }[];
 };
-
 
 const PriceChart: React.FC<Props> = ({ history }) => {
   const chartData = {
@@ -54,20 +47,7 @@ const PriceChart: React.FC<Props> = ({ history }) => {
     ],
   };
 
-  const chartOptions = {
-    maintainAspectRatio: false,
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: true,
-          },
-        },
-      ],
-    },
-  };
-
-  return <Line data={chartData} options={chartOptions} />;
+  return <Line data={chartData} options={{ maintainAspectRatio: false }} />;
 };
 
 export default PriceChart;
