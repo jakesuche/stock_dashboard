@@ -16,8 +16,8 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({
   children,
-  pageTitle,
-  pageDescription,
+  pageTitle = 'Stcock Details',
+  pageDescription = 'Stcock Details',
 }) => {
 
   useEffect(() => {
