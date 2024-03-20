@@ -7,24 +7,17 @@ import React, { useEffect, useState } from "react";
 import { axioInstance } from "services/config";
 import { socket } from "utils/socket";
 
-
 export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
   const slug = ctx.query.slug;
+  let response;
   try {
-    const response: AxiosResponse = await axioInstance.get(`api/stock/${slug}`);
-
-    return {
-      props: {
-        data: response.data || null,
-      },
-    };
-  } catch (error) {
-    return {
-      props: {
-        response: null,
-      },
-    };
-  }
+    response = await axioInstance.get(`api/stock/${slug}`);
+  } catch (error) {}
+  return {
+    props: {
+      data: response?.data || null,
+    },
+  };
 };
 
 type Props = {
@@ -34,16 +27,15 @@ type Props = {
 };
 
 const StockDetail: React.FC<Props> = ({ data }) => {
-  const  [stockdetails, setStockDetail] = useState(data?.result);
+  const [stockdetails, setStockDetail] = useState(data?.result);
   let details;
 
-  useEffect(()=>{
-    socket.on("update", (res:Stock[])=>{
+  useEffect(() => {
+    socket.on("update", (res: Stock[]) => {
       const find = res.find((item) => item.symbol == stockdetails.symbol);
-      setStockDetail(find!)
+      setStockDetail(find!);
     });
-  },[])
-
+  }, []);
 
   if (Boolean(stockdetails)) {
     details = (
