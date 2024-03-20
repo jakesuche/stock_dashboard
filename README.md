@@ -134,6 +134,5 @@ yarn dev
 ### Performance
 
 - Leverage code-splitting to improve initial load time.
-- Optimize images for web delivery.
 - implemented server-side caching for frequently accessed data.
 

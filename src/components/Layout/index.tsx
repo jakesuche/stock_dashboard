@@ -25,7 +25,6 @@ const Layout: FC<LayoutProps> = ({
     socket.connect();
     socket.on("connect", () => {});
     socket.on("update", (res) => {
-      
       socket.emit("updated", res);
     });
   }, []);

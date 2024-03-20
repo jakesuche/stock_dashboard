@@ -13,12 +13,17 @@ type Props = {
 };
 
 export async function getStaticProps() {
-  const response: AxiosResponse<Props> = await axioInstance.get("api/stock");
-  const stocks = response.data.results || [];
+ 
+  try {
+     const response: AxiosResponse<Props> = await axioInstance.get("api/stock");
+      const stocks = response.data.results || [];
+      return { props: { stocks }, revalidate: 5 };
+  } catch (error) {
+     return { props: {  } };
+  }
   // this will attempt to re-generate the page:
-  // - When a request comes in
-  // - At most once every 5 seconds
-  return { props: { stocks }, revalidate: 5 };
+ 
+  
 }
 
 const Stocks: NextPageWithLayout<{ stocks: Stock[] }> = ({
