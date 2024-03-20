@@ -23,6 +23,10 @@ npm run dev
 # or
 yarn dev
 ```
+```bash
+please run the server on localhost:3000
+```
+
 ##### Folder Structure
 ```bash
 |- pages/
